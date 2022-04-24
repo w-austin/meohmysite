@@ -1,0 +1,54 @@
+body {
+    font-family: "Verdana", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Lobster";
+}
+
+h2 {
+    color: #40084e;
+}
+
+header h2 {
+    color: white;
+}
+
+h3 {
+    font-family: "Arial Black";
+}
+
+.site-footer {
+    background-image: linear-gradient(to right, #15812c, #358045, #30753f, #40084e);
+    padding: 20px 0; /*left and right sides*/
+}
+
+/*up until now, all the css rules have been for html elements. jumbotron is a bootstrap defined class*/
+
+
+.row-content {
+    padding: 50px 0px; /*50 for top and bottom, 0 for left and right*/
+    border-bottom: 1px ridge;
+    min-height: 200px; 
+}
+
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+
+
+.card-header {
+    background-color: #cebb12;
+}
